@@ -8,4 +8,5 @@ namespace Coins_Counter
     {
         public Coins_counter()
         {
-            InitializeCompon
+            InitializeComponent();
+            textBox1.AppendText("200");                         // Default sum (can
