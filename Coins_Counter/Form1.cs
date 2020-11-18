@@ -4,4 +4,8 @@ using System.Windows.Forms;
 
 namespace Coins_Counter
 {
-    public
+    public partial class Coins_counter : Form
+    {
+        public Coins_counter()
+        {
+            InitializeCompon
