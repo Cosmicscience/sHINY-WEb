@@ -10,4 +10,6 @@ namespace Coins_Counter
         {
             InitializeComponent();
             textBox1.AppendText("200");                         // Default sum (can be changed in main form)
-            textBox2.AppendText("200 100 50 20 10 5 2 1");      // Defaul
+            textBox2.AppendText("200 100 50 20 10 5 2 1");      // Default cortege of coins (can be changed in main form)
+        }
+        private void button1_Click(object send
