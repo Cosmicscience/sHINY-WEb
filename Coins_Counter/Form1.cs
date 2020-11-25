@@ -15,4 +15,4 @@ namespace Coins_Counter
         private void button1_Click(object sender, EventArgs e)
         {
             richTextBox1.Clear(); 
- 
+            int difference = 0;                           //Difference helps us to define 
