@@ -16,4 +16,4 @@ namespace Coins_Counter
         {
             richTextBox1.Clear(); 
             int difference = 0;                           //Difference helps us to define the value of coin we take to our current collection. 
-            int Corteg
+            int CortegeSum = 0;                           //CortegeSum stands for sum of our current set 
