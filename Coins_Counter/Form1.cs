@@ -18,4 +18,5 @@ namespace Coins_Counter
             int difference = 0;                           //Difference helps us to define the value of coin we take to our current collection. 
             int CortegeSum = 0;                           //CortegeSum stands for sum of our current set of coins: whether it higher than start sum or lower.
             int NumberOfCombinations = 0;                 //Counter for different sets (corteges) of coints for start sum.
-            int Sum = 0;                                  //value which we will try to represent in
+            int Sum = 0;                                  //value which we will try to represent in all possible ways with our coins.
+            List<int> NominalsList =
