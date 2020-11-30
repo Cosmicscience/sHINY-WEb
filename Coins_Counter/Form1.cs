@@ -20,4 +20,6 @@ namespace Coins_Counter
             int NumberOfCombinations = 0;                 //Counter for different sets (corteges) of coints for start sum.
             int Sum = 0;                                  //value which we will try to represent in all possible ways with our coins.
             List<int> NominalsList = new List<int>() { }; //List of different coins nominals.
-            List<int> Cortege = new List<int>() { };      //List of current set of coins which are processing
+            List<int> Cortege = new List<int>() { };      //List of current set of coins which are processing.
+            Sum = Convert.ToInt32(textBox1.Text);
+            string NominalsStrin
