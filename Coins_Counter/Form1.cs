@@ -23,4 +23,6 @@ namespace Coins_Counter
             List<int> Cortege = new List<int>() { };      //List of current set of coins which are processing.
             Sum = Convert.ToInt32(textBox1.Text);
             string NominalsString = RemoveSpaces(textBox2.Text);     //Reading the values of coins.
-           
+            for (int i = 0; i < NominalsString.Trim().Split(' ').Length; i++)
+                {
+       
