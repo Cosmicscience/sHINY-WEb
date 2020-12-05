@@ -25,4 +25,7 @@ namespace Coins_Counter
             string NominalsString = RemoveSpaces(textBox2.Text);     //Reading the values of coins.
             for (int i = 0; i < NominalsString.Trim().Split(' ').Length; i++)
                 {
-                    NominalsList.Add(Convert.ToInt32(NominalsString.Trim().Split(' ')[i])); //Get
+                    NominalsList.Add(Convert.ToInt32(NominalsString.Trim().Split(' ')[i])); //Getting different values of coins.
+                }
+            NominalsList.Sort();
+            Corte
