@@ -28,4 +28,4 @@ namespace Coins_Counter
                     NominalsList.Add(Convert.ToInt32(NominalsString.Trim().Split(' ')[i])); //Getting different values of coins.
                 }
             NominalsList.Sort();
-            Corte
+            Cortege.Add(NominalsList[NominalsList.Count - 1]);            //Adding first, maximal 
