@@ -31,4 +31,6 @@ namespace Coins_Counter
             Cortege.Add(NominalsList[NominalsList.Count - 1]);            //Adding first, maximal valued coin to our cortege.
             while (Cortege.Count < Sum / NominalsList[0])                 //Processing untill our cortege will be represented with the cheapest coins.
             {
-  
+                foreach (int element in Cortege)
+                {
+              
