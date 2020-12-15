@@ -33,4 +33,7 @@ namespace Coins_Counter
             {
                 foreach (int element in Cortege)
                 {
-                    CortegeSum += element;                                 //Counting the curren
+                    CortegeSum += element;                                 //Counting the current sum of current cortege. 
+                }
+                difference = Sum - CortegeSum;
+        
