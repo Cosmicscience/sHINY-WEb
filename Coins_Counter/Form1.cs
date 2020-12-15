@@ -36,4 +36,4 @@ namespace Coins_Counter
                     CortegeSum += element;                                 //Counting the current sum of current cortege. 
                 }
                 difference = Sum - CortegeSum;
-        
+                if (difference > 0)                                        //If the difference
