@@ -33,4 +33,4 @@ namespace Coins_Counter
             {
                 foreach (int element in Cortege)
                 {
-              
+                    CortegeSum += element;                                 //Counting the curren
