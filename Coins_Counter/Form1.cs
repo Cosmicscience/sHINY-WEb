@@ -37,4 +37,6 @@ namespace Coins_Counter
                 }
                 difference = Sum - CortegeSum;
                 if (difference > 0)                                        //If the difference is higher than zero, we still looking for coins to add to our current cortege.
-              
+                {
+                    int NextCoin = ClosestCoin(difference, NominalsList);
+                    if (
