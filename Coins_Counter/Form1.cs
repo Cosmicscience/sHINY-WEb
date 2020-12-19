@@ -45,4 +45,4 @@ namespace Coins_Counter
                     }
                     else
                     {
-                        b
+                        break;                                               //If there is no coin
