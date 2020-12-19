@@ -42,3 +42,7 @@ namespace Coins_Counter
                     if (NextCoin > 0)
                     {
                         Cortege.Add(NextCoin);
+                    }
+                    else
+                    {
+                        b
