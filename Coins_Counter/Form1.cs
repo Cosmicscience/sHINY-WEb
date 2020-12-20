@@ -45,4 +45,7 @@ namespace Coins_Counter
                     }
                     else
                     {
-                        break;                                               //If there is no coin
+                        break;                                               //If there is no coin, cheaper than the difference – break.
+                    }
+                }
+    
