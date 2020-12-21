@@ -48,4 +48,6 @@ namespace Coins_Counter
                         break;                                               //If there is no coin, cheaper than the difference – break.
                     }
                 }
-    
+                else
+                {
+                    if (difference == 0)          
