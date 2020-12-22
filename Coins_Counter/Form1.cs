@@ -50,4 +50,4 @@ namespace Coins_Counter
                 }
                 else
                 {
-                    if (difference == 0)          
+                    if (difference == 0)                                    //Means that we get successful set of coins, e
