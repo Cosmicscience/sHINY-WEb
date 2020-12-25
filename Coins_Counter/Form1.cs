@@ -52,4 +52,5 @@ namespace Coins_Counter
                 {
                     if (difference == 0)                                    //Means that we get successful set of coins, equal to starting sum.
                     {
-                        NumberOfCombinati
+                        NumberOfCombinations++;                              //increment counter of successful corteges.
+              
