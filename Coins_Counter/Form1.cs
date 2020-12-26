@@ -53,4 +53,6 @@ namespace Coins_Counter
                     if (difference == 0)                                    //Means that we get successful set of coins, equal to starting sum.
                     {
                         NumberOfCombinations++;                              //increment counter of successful corteges.
-                        DisplayCombinations(NumberOfCombinations, Cortege); //Shows us the successful cor
+                        DisplayCombinations(NumberOfCombinations, Cortege); //Shows us the successful corteges if checkbox is checked.
+                    }
+                    CortegeChanging(Cortege, 
