@@ -55,4 +55,7 @@ namespace Coins_Counter
                         NumberOfCombinations++;                              //increment counter of successful corteges.
                         DisplayCombinations(NumberOfCombinations, Cortege); //Shows us the successful corteges if checkbox is checked.
                     }
-                    CortegeChanging(Cortege, NominalsList, CortegeSum, Sum); //Changes the last not the cheapest coin in cortege for g
+                    CortegeChanging(Cortege, NominalsList, CortegeSum, Sum); //Changes the last not the cheapest coin in cortege for getting different corteges (Greedy search)
+
+                }
+                CortegeSum = 0;
