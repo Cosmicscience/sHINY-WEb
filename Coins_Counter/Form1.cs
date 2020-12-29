@@ -58,4 +58,6 @@ namespace Coins_Counter
                     CortegeChanging(Cortege, NominalsList, CortegeSum, Sum); //Changes the last not the cheapest coin in cortege for getting different corteges (Greedy search)
 
                 }
-                CortegeSum = 0;                                             //Set to zero cortege sum for t
+                CortegeSum = 0;                                             //Set to zero cortege sum for the next iteration.
+            }
+            if (Cortege[0] * Cortege.Count == S
