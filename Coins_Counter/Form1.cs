@@ -60,4 +60,7 @@ namespace Coins_Counter
                 }
                 CortegeSum = 0;                                             //Set to zero cortege sum for the next iteration.
             }
-            if (Cortege[0] * Cortege.Count == Sum)                          //If the last cortege coincides with the starting sum – adding it to
+            if (Cortege[0] * Cortege.Count == Sum)                          //If the last cortege coincides with the starting sum – adding it to collection.
+            {
+                NumberOfCombinations++;
+                DisplayCombinations(
