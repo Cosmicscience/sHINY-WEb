@@ -63,4 +63,6 @@ namespace Coins_Counter
             if (Cortege[0] * Cortege.Count == Sum)                          //If the last cortege coincides with the starting sum – adding it to collection.
             {
                 NumberOfCombinations++;
-                DisplayCombinations(
+                DisplayCombinations(NumberOfCombinations, Cortege);
+            }
+            richTextBox1.Appe
