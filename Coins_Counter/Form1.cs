@@ -65,4 +65,6 @@ namespace Coins_Counter
                 NumberOfCombinations++;
                 DisplayCombinations(NumberOfCombinations, Cortege);
             }
-            richTextBox1.Appe
+            richTextBox1.AppendText("\n"+"Total number of combinations: " + NumberOfCombinations);
+        }
+        intern
