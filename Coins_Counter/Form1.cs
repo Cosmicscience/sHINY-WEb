@@ -67,4 +67,4 @@ namespace Coins_Counter
             }
             richTextBox1.AppendText("\n"+"Total number of combinations: " + NumberOfCombinations);
         }
-        intern
+        internal Tuple<List<int>, int> CortegeChanging(List<int>Cortege, List<int>Nomina
