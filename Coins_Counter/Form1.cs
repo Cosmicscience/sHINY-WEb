@@ -73,4 +73,4 @@ namespace Coins_Counter
             {
                 if (Cortege[i] > NominalsList[0]) //Looking from the end of collection for last non-cheapest coin in cortege.
                 {
-                    Cortege[i] = Nomina
+                    Cortege[i] = NominalsList[NominalsList.IndexOf(Cortege[i]) - 1]; //Replace it with the cheaper one.
