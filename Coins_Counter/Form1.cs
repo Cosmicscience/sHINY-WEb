@@ -69,4 +69,6 @@ namespace Coins_Counter
         }
         internal Tuple<List<int>, int> CortegeChanging(List<int>Cortege, List<int>NominalsList, int CortegeSum, int Sum)
         {
-            for (int i = Cortege.Count - 1; i >= 0; 
+            for (int i = Cortege.Count - 1; i >= 0; i--)
+            {
+                if (Cortege[i] > NominalsList[0]) //Looking from the end of col
