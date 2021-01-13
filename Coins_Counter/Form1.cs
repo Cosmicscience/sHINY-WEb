@@ -75,4 +75,6 @@ namespace Coins_Counter
                 {
                     Cortege[i] = NominalsList[NominalsList.IndexOf(Cortege[i]) - 1]; //Replace it with the cheaper one.
                     if (Cortege.Count - 1 > i) //If it is not the last coin in cortege:
-             
+                    {
+                        int range = Cortege.Count - 1 - i;
+                        Corte
