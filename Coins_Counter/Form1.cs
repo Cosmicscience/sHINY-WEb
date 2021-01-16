@@ -77,4 +77,5 @@ namespace Coins_Counter
                     if (Cortege.Count - 1 > i) //If it is not the last coin in cortege:
                     {
                         int range = Cortege.Count - 1 - i;
-                        Corte
+                        Cortege.RemoveRange(i + 1, Cortege.Count - 1 - i); //  Replace the rest of cheap coins.
+   
