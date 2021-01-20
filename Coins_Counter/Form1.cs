@@ -79,4 +79,6 @@ namespace Coins_Counter
                         int range = Cortege.Count - 1 - i;
                         Cortege.RemoveRange(i + 1, Cortege.Count - 1 - i); //  Replace the rest of cheap coins.
                         CortegeSum = 0; 
-                        foreach (int element in C
+                        foreach (int element in Cortege)
+                        {
+                            CortegeSum += eleme
