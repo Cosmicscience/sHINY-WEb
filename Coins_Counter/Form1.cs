@@ -81,4 +81,6 @@ namespace Coins_Counter
                         CortegeSum = 0; 
                         foreach (int element in Cortege)
                         {
-                            CortegeSum += eleme
+                            CortegeSum += element;      // Recalculate the sum of current cortege.
+                        }
+                      
