@@ -83,4 +83,4 @@ namespace Coins_Counter
                         {
                             CortegeSum += element;      // Recalculate the sum of current cortege.
                         }
-                      
+                        for (int ChangeElements = 0; ChangeElements < (Sum - CortegeSum) / Cortege[i]; ChangeElements++)
