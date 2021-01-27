@@ -86,4 +86,7 @@ namespace Coins_Counter
                         for (int ChangeElements = 0; ChangeElements < (Sum - CortegeSum) / Cortege[i]; ChangeElements++)
                         {
                             Cortege.Add(Cortege[i]); //Adding as much coins of current nominal as possible without exceeding the starting sum.
-      
+                        }
+                    }
+                    break;
+          
