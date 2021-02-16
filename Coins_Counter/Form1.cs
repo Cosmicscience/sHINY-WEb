@@ -89,4 +89,8 @@ namespace Coins_Counter
                         }
                     }
                     break;
-          
+                }
+            }
+            return Tuple.Create(Cortege, CortegeSum);
+        }
+        
