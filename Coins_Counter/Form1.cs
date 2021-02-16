@@ -93,4 +93,5 @@ namespace Coins_Counter
             }
             return Tuple.Create(Cortege, CortegeSum);
         }
+        internal void DisplayCombinations(int NumberOfCombinations, List<int> Cortege)
         
