@@ -94,4 +94,5 @@ namespace Coins_Counter
             return Tuple.Create(Cortege, CortegeSum);
         }
         internal void DisplayCombinations(int NumberOfCombinations, List<int> Cortege)
-        
+        {
+            if ((checkBox1.Checked == true) && (NumberOfCombinations < 11))     //Showing us fi
