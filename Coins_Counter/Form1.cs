@@ -95,4 +95,6 @@ namespace Coins_Counter
         }
         internal void DisplayCombinations(int NumberOfCombinations, List<int> Cortege)
         {
-            if ((checkBox1.Checked == true) && (NumberOfCombinations < 11))     //Showing us fi
+            if ((checkBox1.Checked == true) && (NumberOfCombinations < 11))     //Showing us first 10 successful corteges in richtextbox. (can be changed).
+            {
+               
