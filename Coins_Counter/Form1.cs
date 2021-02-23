@@ -97,4 +97,6 @@ namespace Coins_Counter
         {
             if ((checkBox1.Checked == true) && (NumberOfCombinations < 11))     //Showing us first 10 successful corteges in richtextbox. (can be changed).
             {
-               
+                foreach (var element in Cortege)
+                {
+                    richTextBox1.Ap
