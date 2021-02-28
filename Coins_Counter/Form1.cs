@@ -99,4 +99,6 @@ namespace Coins_Counter
             {
                 foreach (var element in Cortege)
                 {
-                    richTextBox1.Ap
+                    richTextBox1.AppendText(element + " ");
+                }
+                richTextBox1.Appen
