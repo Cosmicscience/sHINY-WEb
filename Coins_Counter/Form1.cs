@@ -101,4 +101,7 @@ namespace Coins_Counter
                 {
                     richTextBox1.AppendText(element + " ");
                 }
-                richTextBox1.Appen
+                richTextBox1.AppendText("\n");
+            }
+        }
+        internal static int ClosestCoin(int difference, 
