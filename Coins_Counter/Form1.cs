@@ -104,4 +104,6 @@ namespace Coins_Counter
                 richTextBox1.AppendText("\n");
             }
         }
-        internal static int ClosestCoin(int difference, 
+        internal static int ClosestCoin(int difference, List<int> NominalsList)
+        {
+            int ClosestNominal = 0;         //Calculating the clos
