@@ -106,4 +106,4 @@ namespace Coins_Counter
         }
         internal static int ClosestCoin(int difference, List<int> NominalsList)
         {
-            int ClosestNominal = 0;         //Calculating the clos
+            int ClosestNominal = 0;         //Calculating the closest coin which is not bigger than difference between starting sum and current c
