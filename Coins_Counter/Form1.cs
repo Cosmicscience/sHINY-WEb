@@ -111,4 +111,8 @@ namespace Coins_Counter
             {
                 if ((difference >= NominalsList[i]))
                 {
-                    Close
+                    ClosestNominal = NominalsList[i];
+                    break; 
+                }
+            }
+     
