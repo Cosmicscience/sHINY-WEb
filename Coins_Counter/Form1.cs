@@ -115,4 +115,6 @@ namespace Coins_Counter
                     break; 
                 }
             }
-     
+            return ClosestNominal;
+        }
+        internal string RemoveSpaces(strin
