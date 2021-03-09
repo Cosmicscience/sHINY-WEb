@@ -117,4 +117,6 @@ namespace Coins_Counter
             }
             return ClosestNominal;
         }
-        internal string RemoveSpaces(strin
+        internal string RemoveSpaces(string NominalsString)
+        {
+            while (NominalsString.Contains("  
