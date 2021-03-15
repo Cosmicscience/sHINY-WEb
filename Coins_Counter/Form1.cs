@@ -119,4 +119,6 @@ namespace Coins_Counter
         }
         internal string RemoveSpaces(string NominalsString)
         {
-            while (NominalsString.Contains("  
+            while (NominalsString.Contains("  ")) // Processing incorrect input.
+            {
+                NominalsStri
