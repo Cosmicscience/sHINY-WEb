@@ -121,4 +121,7 @@ namespace Coins_Counter
         {
             while (NominalsString.Contains("  ")) // Processing incorrect input.
             {
-                NominalsStri
+                NominalsString = NominalsString.Replace("  ", " ");
+            }
+            textBox2.Clear();
+       
