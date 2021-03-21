@@ -124,4 +124,7 @@ namespace Coins_Counter
                 NominalsString = NominalsString.Replace("  ", " ");
             }
             textBox2.Clear();
-       
+            textBox2.AppendText(NominalsString);
+            return NominalsString;
+        }
+        
