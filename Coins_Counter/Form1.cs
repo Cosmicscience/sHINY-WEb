@@ -127,4 +127,6 @@ namespace Coins_Counter
             textBox2.AppendText(NominalsString);
             return NominalsString;
         }
-        
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((!ch
