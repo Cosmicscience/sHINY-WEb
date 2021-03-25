@@ -130,3 +130,7 @@ namespace Coins_Counter
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((!char.IsDigit(e.KeyChar) == true)&&(e.KeyChar != (char)8)) // Processing incorrect input.
+            {
+                e.Handled = true;
+            }
+       
