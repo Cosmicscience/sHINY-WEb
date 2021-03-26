@@ -136,4 +136,7 @@ namespace Coins_Counter
         }
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((!char.IsDigit(e.KeyChar) == true)&&(!char.IsWhiteSpace(e.KeyChar) == t
+            if ((!char.IsDigit(e.KeyChar) == true)&&(!char.IsWhiteSpace(e.KeyChar) == true)&&(e.KeyChar != (char)8))
+            {
+                e.Handled = true;
+            }
