@@ -133,4 +133,6 @@ namespace Coins_Counter
             {
                 e.Handled = true;
             }
-       
+        }
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+     
