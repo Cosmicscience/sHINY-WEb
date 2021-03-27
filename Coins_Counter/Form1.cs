@@ -140,3 +140,6 @@ namespace Coins_Counter
             {
                 e.Handled = true;
             }
+        }
+    }
+}
