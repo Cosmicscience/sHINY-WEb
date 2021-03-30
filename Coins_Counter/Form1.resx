@@ -7,4 +7,5 @@
     
     The primary goals of this format is to allow a simple XML format 
     that is mostly human readable. The generation and parsing of the 
-    var
+    various data types are done through the TypeConverter classes 
+    associated with the data typ
