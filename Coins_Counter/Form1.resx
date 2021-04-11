@@ -31,4 +31,5 @@
     name/value pairs.
     
     Each data row contains a name, and value. The row also contains a 
-    type 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion th
