@@ -40,4 +40,5 @@
     ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
     
-    Note - app
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWrit
