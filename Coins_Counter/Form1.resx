@@ -38,4 +38,6 @@
     
     The mimetype is used for serialized objects, and tells the 
     ResXResourceReader how to depersist the object. This is currently not 
- 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - app
