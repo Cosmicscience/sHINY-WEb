@@ -51,4 +51,5 @@
     
     mimetype: application/x-microsoft.net.object.soap.base64
     value   : The object must be serialized with 
-            : System.R
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with
