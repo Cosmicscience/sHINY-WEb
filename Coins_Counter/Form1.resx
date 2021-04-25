@@ -65,4 +65,6 @@
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
-            <xsd:c
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xs
