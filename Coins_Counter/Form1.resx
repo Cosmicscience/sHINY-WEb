@@ -72,4 +72,6 @@
               <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
-             
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element
