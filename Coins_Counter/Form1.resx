@@ -94,4 +94,6 @@
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
-   
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element nam
