@@ -103,4 +103,7 @@
           </xsd:element>
         </xsd:choice>
       </xsd:complexType>
-    </xsd:
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-res
