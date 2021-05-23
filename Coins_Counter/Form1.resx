@@ -110,4 +110,6 @@
   </resheader>
   <resheader name="version">
     <value>2.0</value>
-  </re
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Win
