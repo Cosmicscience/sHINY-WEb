@@ -12,4 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("Coins_Counter")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture(
+[assembly: AssemblyCulture("")]
+
+// Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 
+// для 
