@@ -15,4 +15,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 
 // Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 
-// для 
+// для COM-компонентов.  Если требуется обратиться к типу в этой сборке через 
+// COM,
