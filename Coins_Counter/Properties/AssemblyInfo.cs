@@ -8,4 +8,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Coins_Counter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[as
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Coins_Counter")]
+[assembly: AssemblyCopyrig
