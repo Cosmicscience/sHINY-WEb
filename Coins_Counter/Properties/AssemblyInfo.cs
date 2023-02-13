@@ -16,4 +16,7 @@ using System.Runtime.InteropServices;
 
 // Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 
 // для COM-компонентов.  Если требуется обратиться к типу в этой сборке через 
-// COM,
+// COM, задайте атрибуту ComVisible значение TRUE для этого типа.
+[assembly: ComVisible(false)]
+
+// С
