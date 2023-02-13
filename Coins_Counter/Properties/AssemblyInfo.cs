@@ -19,4 +19,5 @@ using System.Runtime.InteropServices;
 // COM, задайте атрибуту ComVisible значение TRUE для этого типа.
 [assembly: ComVisible(false)]
 
-// С
+// Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
+[assembly
