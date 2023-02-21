@@ -8,4 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace
+namespace Coins_Counter.Properties {
+    using System;
+    
+    
+    /// <summary>
+    ///   Класс рес
