@@ -14,4 +14,6 @@ namespace Coins_Counter.Properties {
     
     /// <summary>
     ///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
-    /// </summ
+    /// </summary>
+    // Этот класс создан автоматически классом StronglyTypedResourceBuilder
+    // с помощью 
