@@ -17,4 +17,5 @@ namespace Coins_Counter.Properties {
     /// </summary>
     // Этот класс создан автоматически классом StronglyTypedResourceBuilder
     // с помощью такого средства, как ResGen или Visual Studio.
-    // Чтобы добавить или удалить чл
+    // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
+    // с параметром /str или перестро
