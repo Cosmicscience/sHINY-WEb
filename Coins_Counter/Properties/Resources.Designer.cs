@@ -26,4 +26,6 @@ namespace Coins_Counter.Properties {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
-        private static global::System.Glo
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.
