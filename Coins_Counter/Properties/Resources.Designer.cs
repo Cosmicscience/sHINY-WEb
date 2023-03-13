@@ -24,4 +24,6 @@ namespace Coins_Counter.Properties {
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
         
-        private static global::System.R
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Glo
