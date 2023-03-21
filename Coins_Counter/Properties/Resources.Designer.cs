@@ -33,4 +33,4 @@ namespace Coins_Counter.Properties {
         }
         
         /// <summary>
-        
+        ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
