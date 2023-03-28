@@ -38,4 +38,5 @@ namespace Coins_Counter.Properties {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
-                if (ob
+                if (object.ReferenceEquals(resourceMan, null)) {
+                    global::System.Resources.ResourceManager
