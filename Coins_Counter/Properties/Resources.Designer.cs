@@ -36,4 +36,6 @@ namespace Coins_Counter.Properties {
         ///   Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::Syste
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (ob
