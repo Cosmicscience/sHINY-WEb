@@ -47,4 +47,5 @@ namespace Coins_Counter.Properties {
         }
         
         /// <summary>
-        ///   Пер
+        ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
+        ///   обращений к ресурсу 
