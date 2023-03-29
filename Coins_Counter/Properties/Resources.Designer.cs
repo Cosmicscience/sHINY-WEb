@@ -39,4 +39,4 @@ namespace Coins_Counter.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Coins_Counter.Properties.Resources", typeo
