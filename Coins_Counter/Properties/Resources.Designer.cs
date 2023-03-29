@@ -42,4 +42,9 @@ namespace Coins_Counter.Properties {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Coins_Counter.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
-      
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Пер
