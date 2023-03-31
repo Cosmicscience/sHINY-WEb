@@ -48,4 +48,6 @@ namespace Coins_Counter.Properties {
         
         /// <summary>
         ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
-        ///   обращений к ресурсу 
+        ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+        /// </summary>
+        [global::System.
