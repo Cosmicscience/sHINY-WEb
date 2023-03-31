@@ -50,4 +50,4 @@ namespace Coins_Counter.Properties {
         ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
         /// </summary>
-        [global::System.
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBr
