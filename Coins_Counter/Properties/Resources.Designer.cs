@@ -60,4 +60,5 @@ namespace Coins_Counter.Properties {
             }
         }
         
-        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bit
