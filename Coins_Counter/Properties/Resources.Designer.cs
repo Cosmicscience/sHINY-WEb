@@ -55,3 +55,9 @@ namespace Coins_Counter.Properties {
             get {
                 return resourceCulture;
             }
+            set {
+                resourceCulture = value;
+            }
+        }
+        
+        
