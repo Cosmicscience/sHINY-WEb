@@ -65,4 +65,7 @@ namespace Coins_Counter.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap background {
             get {
-                object obj = ResourceManager.GetObject("background", resourceC
+                object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
