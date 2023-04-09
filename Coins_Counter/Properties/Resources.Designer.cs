@@ -69,3 +69,5 @@ namespace Coins_Counter.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+    }
+}
