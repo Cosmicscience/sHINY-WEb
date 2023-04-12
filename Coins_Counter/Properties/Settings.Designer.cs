@@ -12,4 +12,5 @@ namespace Coins_Counter.Properties
 {
 
 
-    [global::System
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [global::System.CodeDom.Compil
