@@ -22,4 +22,8 @@ namespace Coins_Counter.Properties
         public static Settings Default
         {
             get
-  
+            {
+                return defaultInstance;
+            }
+        }
+   
