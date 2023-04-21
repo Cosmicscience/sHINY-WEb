@@ -26,4 +26,5 @@ namespace Coins_Counter.Properties
                 return defaultInstance;
             }
         }
-   
+    }
+}
